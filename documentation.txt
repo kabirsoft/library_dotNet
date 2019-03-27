@@ -1,0 +1,27 @@
+Solution has 4 seperate project
+1. Library_data
+2. Library_webservice
+3. UnitTest_library
+4. Library_Frontend
+
+1. Library_data
+    Models
+	  Book.cs
+	  Cost.cs
+	  LibraryContext.cs
+	IRepositories
+	  IBookRepo.cs
+	Repositories
+	  BookRepo.cs
+
+2. Library_webservice
+	  BooksController.cs
+
+3. UnitTest_library
+      unitTest1.cs
+4. Library_frontend
+      view->Home
+          Index.cshtml	  
+
+	 
+	  
