@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Inputs</h2>
+        <input type="text" name="id" id="id" class="form-control" placeholder="Id">
+        <input type="text" name="title" id="title" class="form-control" placeholder="Title of book">
+        <input type="text" name="author" id="author" class="form-control" placeholder="Author">
+        <input type="text" name="publicationyear" id="publicationyear" class="form-control" placeholder="Publication Year">
+        <input type="text" name="isavailable" id="isavailable" class="form-control" placeholder="Available?">
+        
+    </div>
+    <div class="col-md-4">
+        <form id="FormCost">
+            <h2>Input Cost</h2>
+            <!-- input type="text" name="BookId" id="BookId" class="form-control" placeholder="Id" -->
+            <input type="text" name="Price" id="Price" class="form-control" placeholder="Price">
+            <input type="text" name="Discount" id="Discount" class="form-control" placeholder="Discount? (True or False)">
+            <button type="button" id="AddCost" class="btn btn-default">Add Cost to book</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <h2>Actions</h2>
+        <button type="button" id="GetAll" class="btn btn-default">Get All Books</button>
+        <button type="button" id="GetById" class="btn btn-default">Get Book by ID</button>
+        <button type="button" id="AddBook" class="btn btn-default">Add a Book</button>
+        <button type="button" id="UpdateBook" class="btn btn-default">Update book</button>
+
+        <button type="button" id="GetBooksByAuthor" class="btn btn-default"> Get Books By Author </button>
+        <button type="button" id="GetAuthorById" class="btn btn-default"> Get Author By Id </button>
+        <button type="button" id="GetBooksByAuthorAndYear" class="btn btn-default"> Get Books By Author And Year </button>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h1>Results</h1>
+        <p id="result"></p>
+    </div>
+</div>
