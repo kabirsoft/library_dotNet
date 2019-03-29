@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Library_data.Repositories
 {
-    public class BookRepo : IBookRepo
+    public class BookRepoDB : IBookRepo
     {
         LibraryContext db = new LibraryContext();
         public List<Book> GetAllBook()

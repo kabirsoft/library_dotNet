@@ -16,7 +16,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace Library_webservice.DependencyResolution {
-    using Library_data.IRepositories;
+    using Library_data.IRepositories;    
     using Library_data.Repositories;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
@@ -31,7 +31,7 @@ namespace Library_webservice.DependencyResolution {
                     scan.WithDefaultConventions();
                 });
             //For<IExample>().Use<Example>();
-            For<IBookRepo>().Use<BookRepo>();
+            For<IBookRepo>().Use<BookRepoDB>();
         }
 
         #endregion

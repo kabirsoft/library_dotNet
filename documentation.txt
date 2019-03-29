@@ -1,4 +1,4 @@
-Solution has 4 seperate project
+Solution has 4 seperate part
 1. Library_data
 2. Library_webservice
 3. UnitTest_library
@@ -20,8 +20,13 @@ Solution has 4 seperate project
 3. UnitTest_library
       unitTest1.cs
 4. Library_frontend
-      view->Home
-          Index.cshtml	  
+    Views->Home
+        Index.cshtml		  
+	Scripts
+		customscripts.js
 
+How data are flowing:
+
+		
 	 
 	  
