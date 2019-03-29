@@ -1,8 +1,31 @@
+Application Name: Library. 
+Retrieve book info, add book, edit book, delete book, add cost to book using webservice. 
+
+Architecture: See the library_webservice.png
+
+---------------------- Technology, framework and tools ------------
+RESTful API that uses HTTP requests to GET, PUT, POST and DELETE data.
+
+Back-end:
+
+  WebApi (library_webservice )
+  MVC    ( Library_frontend )
+  Entity framework ( Library_data )
+  StructureMap ( decide what implementation of IBookRepo to inject )
+  Swagger (documentation for Restful webservices. See swagger.png )
+  Routing  (matches url for HTTP request to a particular action method)
+  webapiCorse (Cross-Origin Resource Sharing)
+
+Frontend: 
+  Bootstrap
+  Ajax
+
+----------------------------------------- Solution folder structure -----------
 Solution has 4 seperate part
 1. Library_data
 2. Library_webservice
 3. UnitTest_library
-4. Library_Frontend
+4. Library_frontend
 
 1. Library_data
     Models
@@ -25,7 +48,10 @@ Solution has 4 seperate part
 	Scripts
 		customscripts.js
 
-How data are flowing:
+--------------------------------------
+
+
+
 
 		
 	 
